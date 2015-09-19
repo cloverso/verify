@@ -1,0 +1,111 @@
+* {
+	box-sizing:border-box;
+}
+.hide {
+	display:none;
+}
+html,body {
+	height:100%;
+	min-height:700px;
+	width:100%;
+}
+body {
+	background:url(./member08.png) no-repeat center;
+}
+.header {
+	position:absolute;
+	z-index:999;
+	background:#fff;
+}
+.main {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;top:0;bottom:0;
+	width:560px;
+	height:400px;
+}
+.title {
+	height:56px;
+}
+.title>div {
+	width:50%;
+	height:100%;
+	float:left;
+	font-size:18px;
+	color:#fff;
+	line-height:56px;
+	text-align:center;
+	cursor:pointer;
+	background:rgba(0,0,0,.5);
+}
+.title .t-active {
+	color:#666;
+	background:rgba(255,255,255,.6);
+}
+.form-box {
+	height:300px;	
+}
+.form {
+	width:100%;
+	padding:50px 110px;
+	font-size:14px;
+	color:#666;
+	background:#fff;
+}
+.form .input-box {
+	position:relative;
+}
+.form .input-box:nth-of-type(1n) {
+	margin-bottom:-1px;
+}
+.form .input-box:nth-of-type(2n) {
+	margin-bottom:10px;
+}
+.form .input-box input {
+	width:100%;
+	height:40px;
+	padding:0px 10px;
+	outline:none;
+	border:1px solid #cfcfcf;
+}
+.form .input-box .get-code {
+	position:absolute;
+	top:0;
+	right:0;
+	width:110px;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+	color:#fff;
+	background:#8BC34A;
+}
+.form .auto-login {
+	position:relative;
+	line-height:30px;
+	margin:-6px 0 10px;
+}
+.form .auto-login a {
+	float:right;
+	font-size:12px;
+	color:#666;
+}
+.form .auto-login input {
+	vertical-align:middle;
+	font-size:12px;
+}
+.form .submit {
+	font-size: 18px;
+	color: #FFF;
+	letter-spacing: 8px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	cursor:pointer;
+	background:#dd4540;
+}
+.wrong {
+	padding-left:20px;
+	line-height:30px;
+	font-size:12px;
+	background: transparent url("./wrong.png") no-repeat scroll left center;
+}
